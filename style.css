@@ -1,0 +1,56 @@
+body {
+  margin: 20px;
+}
+
+div {
+  background-color: red;
+}
+
+.myDiv {
+  background-color: yellow;
+  font-size: 40px;
+}
+.myBorder {
+  border: 2px solid black;
+  outline: seagreen solid 15px;
+  margin: 20px;
+}
+.hover {
+  background-color: aquamarine;
+}
+.hover:hover {
+  color: red;
+}
+
+.hover:active {
+  color: green;
+}
+
+body,
+div {
+  color: blue;
+}
+
+#myParagraph {
+  padding: 0;
+  width: 600px;
+  height: 100px;
+}
+
+[glass="gott"] {
+  color: blue;
+}
+/*
+Nämn fem egenskaper som hittils inte använts:
+font-famliy
+font-size
+border
+border-radius
+box-shadow
+
+Avancerade 1: ID prioriteras högre än klass, så Blå!
+2: Absolute innebär att elementet kommer vara relativt sin närmsta förälder. har den ingen 
+förälder så kommer den vara relativ  fönstret.
+
+
+*/
